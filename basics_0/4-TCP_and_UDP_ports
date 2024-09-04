@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# show listening connexions
 
 ss -tulnpx | grep LISTEN

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#ping 5x an ip 
+
 
 if [ -z "$1" ]; then
 echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
