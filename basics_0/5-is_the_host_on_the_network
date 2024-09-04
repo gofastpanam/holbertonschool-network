@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+echo "Usage: $0 {ARGUMENT_DE_3_CARACTÈRES}"
+exit 1
+fi
+
+ping -c 5 "$1"
