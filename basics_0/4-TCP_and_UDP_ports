@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo netstat -tunlp | grep LISTEN
+ss -tulnpx | grep LISTEN
